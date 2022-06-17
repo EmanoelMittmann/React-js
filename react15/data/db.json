@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Camisa",
+      "price": 59.9
+    },
+    {
+      "id": 3,
+      "name": "Boné aba reta",
+      "price": 29.9
+    },
+    {
+      "name": "teste",
+      "price": "15.0",
+      "id": 4
+    },
+    {
+      "name": "orelha de macaco",
+      "price": "40",
+      "id": 5
+    },
+    {
+      "name": "teste",
+      "price": "12",
+      "id": 6
+    },
+    {
+      "name": "Monitor",
+      "price": "12",
+      "id": 7
+    }
+  ]
+}

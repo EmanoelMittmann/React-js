@@ -1,0 +1,20 @@
+{
+    "products":[
+    {
+        "id": 1,
+        "nome":"Roçadeira",
+        "preco":190.00
+    },
+    {
+        "id": 2,
+        "nome":"Serra eletrica",
+        "preco":500.00
+    },
+    {
+        "id": 3,
+        "nome":"Podador",
+        "preco":990.00
+    }
+  ]
+
+}

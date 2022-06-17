@@ -1,0 +1,31 @@
+.mainBlock{
+    width: 90vw;
+    height: 40vh;
+    background-color: burlywood;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block1{
+    background: #251265;
+    width: 45%;
+    height: 90%;
+    margin-right: 5px;
+    border-radius: 10px;
+    transition: all 300ms ease;
+}
+.block2{
+    background: #241340;
+    width: 45%;
+    height: 90%;
+    margin-left: 5px;
+    border-radius: 10px;
+    transition: all 300ms ease;
+}
+
+.block1:hover , .block2:hover{
+    background-color: black;
+    color: #fff;
+}

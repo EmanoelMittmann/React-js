@@ -1,0 +1,37 @@
+.First{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #244;
+    width: 90vw;
+    margin: auto;
+    border-radius: 10px;
+    color: white;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 0 10px black;
+    transition: all 400ms ease;
+}
+.First:hover{
+    background-color: red;
+    color: black;
+}
+.First:active{
+    color: #254;
+    background-color: #ac34b5;
+}
+.products{
+    display: flex;
+    justify-content: center;
+}
+
+.products li{
+    border: 1px solid #efefef;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+    margin: 0 10px;
+    width: 25%;
+}
