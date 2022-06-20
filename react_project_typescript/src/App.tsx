@@ -18,7 +18,7 @@ function App() {
   const[taskList, setTaskList] = useState<ITask[]>([]);
   const[taskToUpdate, setTaskToUpdate] = useState<ITask | null>(null);
 
-  const deleteTask = (title: string) => {
+  const deleteTask = (title: string): void => {
     setTaskList(
       taskList.filter((task) => {
         return task.title !== title
@@ -26,7 +26,7 @@ function App() {
     )
   }
   const hideOrShowModal = (display:boolean) => {
-    const modal = document.querySelector("modal")
+    const modal = document.getElementById("modal")
     if(display) {
       modal!.classList.remove("hide");
     } else {
@@ -56,13 +56,12 @@ function App() {
   return (
     <div>
       <Modal 
-      title="editar Tarefa"
       children={
       <TaskForm 
-      btnText="Editar Tarefa" 
-      taskList={taskList}  
-      task={taskToUpdate}
-      handleUpdate={updateTask}
+        btnText="Editar Tarefa" 
+        taskList={taskList}  
+        task={taskToUpdate}
+        handleUpdate={updateTask}
       />
       }
       />

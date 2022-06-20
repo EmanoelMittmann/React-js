@@ -65,11 +65,21 @@ const TaskForm = ({
     <form onSubmit={addTaskHandler} className={styles.form}>
         <div className={styles.input_container}>
             <label htmlFor="title">Titulo:</label>
-            <input type="text" name='title' placeholder='Titulo da tarefa' value={title} onChange={handleChange}/>
+            <input 
+            type="text" 
+            name='title' 
+            placeholder='Titulo da tarefa' 
+            value={title} 
+            onChange={handleChange}/>
         </div>
         <div className={styles.input_container}>
             <label htmlFor="difficulty">Titulo:</label>
-            <input type="text" name='difficulty' placeholder='Dificuldade da tarefa' value={difficulty} onChange={handleChange}/>
+            <input 
+            type="text" 
+            name='difficulty' 
+            placeholder='Dificuldade da tarefa' 
+            value={difficulty} 
+            onChange={handleChange}/>
         </div>
         <input type="submit" value={btnText} />
     </form>
